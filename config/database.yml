@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: chat_app2_production
-  username: chat_app2
-  password: <%= ENV['CHAT_APP2_DATABASE_PASSWORD'] %>
+  database: nazotoki_chat_production
+  username: nazotoki_chat
+  password: <%= ENV['NAZOTOKI_CHAT_DATABASE_PASSWORD'] %>
